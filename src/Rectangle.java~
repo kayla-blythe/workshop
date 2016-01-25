@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Rectangle {
+
+	public static void main(String[] args) {
+
+Scanner keyboard = new Scanner(System.in);
+
+int length, width;
+
+System.out.println("Enter the length -->");
+length = keyboard.nextInt();
+System.out.println("Enter the width -->");
+width = keyboard.nextInt();
+
+int perimeter = length + length + width + width;
+int area = length * width;
+
+System.out.println("perimeter = " + perimeter);
+System.out.println("are = " + area);
+
+keyboard.close();
+
+	}
+
+}

@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+public class Money {
+
+	public static void main(String[] args) {
+
+Scanner keyboard = new Scanner(System.in);
+
+double quarters, dimes, nickels, pennies, totalCents, dollars, cents;
+quarters = 25;
+dimes = 10;
+nickels = 5;
+pennies = 1;
+
+int num1, num2, num3, num4, sum;
+
+System.out.println("How many pennies do you have -->");
+num1 = keyboard.nextInt();
+
+System.out.println("How many nickels do you have -->");
+num2 = keyboard.nextInt();
+
+System.out.println("How many dimes do you have -->");
+num3 = keyboard.nextInt();
+
+System.out.println("How many quarters do you have -->");
+num4 = keyboard.nextInt();
+
+sum = num1 + num2 + num3 + num4;
+
+System.out.println("Number 1 = " + num1);
+System.out.println("Number 2 = " + num2);
+System.out.println("Number 3 = " + num3);
+System.out.println("Number 4 = " + num4);
+
+System.out.println("Total value is " + sum);
+
+keyboard.close();
+
+	}
+
+}
